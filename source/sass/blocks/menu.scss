@@ -122,10 +122,6 @@
   }
 
   &--form {
-    @include tablet {
-      padding-left: 8px;
-    }
-
     @include desktop {
       text-align: center;
       padding-left: 30px;
