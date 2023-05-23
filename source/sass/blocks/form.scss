@@ -577,8 +577,9 @@
     }
   }
 
-  &:disabled + span {
+  &:disabled ~ span {
     border-color: rgb(155, 155, 155);
+    color: #9b9b9b;
   }
 
   &:focus-visible + span {
@@ -661,8 +662,9 @@
     }
   }
 
-  &:disabled + span {
+  &:disabled ~ span {
     border-color: #9b9b9b;
+    color: #9b9b9b;
   }
 
   &:focus-visible + span {
