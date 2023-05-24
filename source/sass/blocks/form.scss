@@ -177,7 +177,9 @@
 /* Heading */
 
 .form__group-heading {
+  position: relative;
   display: inline-block;
+  width: 100%;
   font-weight: 700;
   font-size: 17px;
   line-height: 16px;
@@ -193,7 +195,7 @@
     position: absolute;
     top: 8px;
     height: 1px;
-    width: 77%;
+    width: calc(100% - 60px);
     left: 62px;
     background-color: $basic-green;
   }
